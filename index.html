@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c141a">
+  <meta name="description" content="Engineering projects, research, prototyping, and technical work by Maxwell Serna.">
+  <title>Engineering Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="Home"><span class="brand-mark" data-initials>MS</span><span class="brand-label"><strong data-name>Maxwell Serna</strong><small>Engineering portfolio</small></span></a>
+      <nav class="nav" aria-label="Main navigation"><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+      <a class="header-link" href="#projects">Explore work <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-eyebrow>Mechanical engineering · Project portfolio</span></p>
+          <h1 data-headline>Ideas become better when they're built.</h1>
+          <p class="hero-subtitle" data-intro></p>
+          <div class="hero-actions"><a class="button button-primary" href="#projects">View my projects <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#about">More about me <span aria-hidden="true">↓</span></a></div>
+          <div class="hero-bottom"><span class="mini-line"></span><span>RESEARCH / DESIGN / BUILD / ITERATE</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Abstract engineering illustration">
+          <div class="hero-visual-grid"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="hero-target"><span class="hero-target-ring"></span><span class="hero-target-core">M<span>/</span>E</span></div>
+          <span class="visual-crosshair top-left">+</span><span class="visual-crosshair top-right">+</span><span class="visual-crosshair bottom-left">+</span><span class="visual-crosshair bottom-right">+</span>
+          <div class="visual-tag tag-top">FIG 01 <span>—</span> ENGINEERING PRACTICE</div>
+          <div class="visual-tag tag-bottom"><span class="tag-indicator"></span> CURIOUS BY DESIGN</div>
+          <div class="visual-coordinate">X: DESIGN &nbsp; Y: DISCOVERY</div>
+        </div>
+      </div>
+    </section>
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading"><div><p class="section-kicker">01 / SELECTED WORK</p><h2>Projects worth<br><em>a closer look.</em></h2></div><p class="heading-note">An evolving collection of school research, engineering analysis, fabrication, and personal builds.</p></div>
+        <div class="filter-wrap"><div id="filters" class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="All" aria-pressed="true">All projects</button></div><span class="project-counter" id="project-count"></span></div>
+        <div class="project-grid" id="project-grid"><p>Loading projects…</p></div>
+        <p class="projects-footnote">More projects will be added as they develop. Select any project to see more detail.</p>
+      </div>
+    </section>
+    <section class="section about-section" id="about"><div class="container about-grid"><div><p class="section-kicker">02 / ABOUT ME</p><h2>Curiosity backed<br>by <em>hands-on work.</em></h2></div><div class="about-copy"><p class="about-lead" data-about></p><div class="areas-label">AREAS I ENJOY WORKING IN</div><div id="focus-areas" class="focus-areas"></div><div class="about-accent"><span class="accent-square"></span><span>Always learning, testing, and refining.</span></div></div></div></section>
+    <section class="section contact-section" id="contact"><div class="container contact-inner"><div><p class="section-kicker">03 / LET'S CONNECT</p><h2>Have a project<br><em>in mind?</em></h2><p>Interested in my work, a collaboration, or an engineering opportunity? I'd love to connect.</p></div><div class="contact-actions" id="contact-actions"><span class="contact-placeholder">Contact information coming soon.</span></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="footer-brand" href="./" data-name>Maxwell Serna</a><span>Designed to grow with every project.</span><span id="copyright"></span></div></footer>
+</body>
+</html>

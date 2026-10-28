@@ -1,0 +1,10 @@
+Add your own project photos to this folder, for example:
+- axotomy.jpg
+- gridfinity.jpg
+- turbine-diagram.png
+- pc-build.jpg
+
+Then open site-data.js and update the relevant project's image line:
+image: "assets/images/axotomy.jpg",
+
+You can add new projects by duplicating an existing project entry in site-data.js.
