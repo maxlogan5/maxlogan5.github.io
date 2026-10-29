@@ -15,16 +15,16 @@
 window.PORTFOLIO = {
   name: "Maxwell Serna",
   initials: "MS",
-  eyebrow: "Mechanical engineering · Project portfolio",
-  headline: "Ideas become better when they're built.",
-  intro: "A collection of engineering research, analytical work, hands-on builds, and creative projects — from biomedical systems to functional 3D printing.",
-  about: "I'm a mechanical engineering student who enjoys working through challenging problems, building practical solutions, and understanding why things work. This portfolio brings together classroom research and projects I pursue on my own time.",
+  eyebrow: "UNC Charlotte · Mechanical engineering · Biomedical focus",
+  headline: "Curiosity put to work.",
+  intro: "I’m Maxwell Serna, a mechanical engineering student at UNC Charlotte concentrating in biomedical engineering. I enjoy turning ideas into practical solutions through research, mechanical design, prototyping, and hands-on projects.",
+  about: "I’ve always enjoyed understanding how things work and finding ways to make them better. My mechanical engineering coursework and projects have introduced me to biomedical research, CAD-based design, mechatronics, and hands-on machining. From investigating laser axotomy to developing a robotic gripping mechanism, I enjoy the process of solving problems, testing ideas, and improving a design. Outside school, I spend time 3D printing, building and troubleshooting PCs, and learning about circuits and microcontrollers such as ESP32 and Arduino so I can incorporate electronics into future projects. I created this site to share what I build, how I approach challenges, and what I learn along the way.",
   location: "North Carolina",
   email: "", // Example: "yourname@example.com". Empty hides the email button.
-  linkedin: "", // Example: "https://www.linkedin.com/in/yourname/"
-  github: "", // Example: "https://github.com/yourusername"
+  linkedin: "https://www.linkedin.com/in/mserna4/", // LinkedIn profile listed on résumé.
+  github: "https://github.com/maxlogan5", // Public GitHub profile
   resume: "", // After adding assets/resume.pdf, use "assets/resume.pdf"
-  focusAreas: ["Design & prototyping", "Research & experimentation", "Analysis & simulation", "Hands-on problem solving"],
+  focusAreas: ["Biomedical Research", "3D Printing & Prototyping", "PC Building & Troubleshooting", "Electronics & Microcontrollers"],
 
   projects: [
     {
